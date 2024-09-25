@@ -22,11 +22,11 @@ body {
 }
 .container {
   width: 100%;
-  min-width: 1437px;
+  min-width: 600px;
 }
 .top-center-content {
   width: 100%;
-  margin-top: 2.5em;
+  /* margin-top: 1em; */
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -70,41 +70,42 @@ body {
   align-items: center;
 }
 .center-card {
-  width: 30%;
+  width: 35%;
   display: flex;
   flex-wrap: wrap;
   gap: 1em;
+  padding-bottom: 1em;
 }
 .four-cards {
-  padding: 1.5em;
+  padding: 1em;
   display: flex;
   align-items: flex-start;
 }
 .main-card-img {
   width: 100%;
-  padding-top: 2em;
+  padding-top: 1.9em;
   display: flex;
   justify-content: flex-end;
 }
 .card-img {
-  width: 15%;
+  width: 35px;
 }
 .four-cards p {
-  margin-top: 0.5em;
-  padding: 0;
-  font-size: 15px;
-  font-weight: 450;
+  margin: 0;
+  padding: 0.5em;
+  font-size: 12px;
+  font-weight: 400;
   color: var(--Grayish-Blue);
 }
 .four-cards h4 {
   margin: 0;
-  padding: 0;
+  padding: 0.5em;
   font-size: 15px;
   font-weight: 550;
   color: var(--Very-Dark-Blue);
 }
 .supervisor {
-  width: 25%;
+  width: 30%;
   display: flex;
   flex-direction: column;
   border-radius: 0.5em;
@@ -113,7 +114,6 @@ body {
   box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .team-Building {
-  width: 100%;
   display: flex;
   flex-direction: column;
   border-radius: 0.5em;
@@ -122,7 +122,7 @@ body {
   box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .calculator {
-  width: 25%;
+  width: 30%;
   display: flex;
   flex-direction: column;
   border-radius: 0.5em;
@@ -147,20 +147,26 @@ body {
   body {
     padding: 0;
     margin: 0;
+    width: 100%;
     font-family: var(--font-family);
     background-color: var(--primary-color);
+    /* background-color: red;
+    border: 1px solid black; */
+  }
+  .container{
+    width: 100%;
+    min-width: 425px;
   }
   .top-center-content{
     width: 100%;
-    position: relative;
-    top: 8em;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
   .top-center-content .para-one {
-    width: 70%;
+    width: 100%;
     text-align: center;
-    font-size: 80px;
+    font-size: 15px;
     font-weight: 200;
     color: var(--Grayish-Blue);
   }
@@ -168,15 +174,14 @@ body {
     margin-bottom: 0.5em;
     text-align: center;
     width: 100%;
-    font-size: 80px;
+    font-size: 15px;
     color: var(--Very-Dark-Blue);
   }
   .top-center-content p {
-    width: 90%;
+    width: 70%;
     margin: 0;
     padding: 0;
-    text-align: justify;
-    font-size: 4em;
+    text-align: center;
     font-weight: 400;
     color: var(--Grayish-Blue);
   }
@@ -190,10 +195,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    /* background-color: blueviolet; */
   }
   .four-card-container {
-    width: 100%;
-    margin-top: 15em;
+    width: 90%;
+    margin-top: 2.5em;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -202,7 +208,7 @@ body {
     align-items: center;
   }
   .center-card {
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -217,29 +223,29 @@ body {
     justify-content: flex-end;
   }
   .card-img {
-    width: 15%;
+    width: 10%;
   }
   .four-cards h4 {
     margin: 0;
     padding: 0;
-    font-size: 60px;
+    font-size: 10px;
     font-weight: 550;
     color: var(--Very-Dark-Blue);
   }
   .four-cards p {
     margin-top: 0.5em;
     padding: 0;
-    font-size: 60px;
+    font-size: 10px;
     font-weight: 400;
     color: var(--Grayish-Blue);
   }
   .supervisor {
-    width: 80%;
+    width: 65%;
     display: flex;
     flex-direction: column;
     border-radius: 0.5em;
     background-color: var(--primary-color);
-    border-top: 0.9em solid var(--Cyan);
+    border-top: 2px solid var(--Cyan);
     box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
   .team-Building {
@@ -248,17 +254,17 @@ body {
     flex-direction: column;
     border-radius: 0.5em;
     background-color: var(--primary-color);
-    border-top: 0.9em solid var(--Red);
+    border-top: 2px solid var(--Red);
     box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
   .calculator {
-    width: 80%;
+    width: 65%;
     margin-bottom: 3em;
     display: flex;
     flex-direction: column;
     border-radius: 0.5em;
     background-color: var(--primary-color);
-    border-top: 0.9em solid var(--Blue);
+    border-top: 2px solid var(--Blue);
     box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
   .karma {
@@ -268,10 +274,14 @@ body {
     padding: 1.5em;
     border-radius: 0.5em;
     background-color: var(--primary-color);
-    border-top: 0.9em solid var(--yellow);
+    border-top: 2px solid var(--yellow);
     box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
 }
+
+
+
+
 
 /* Media Query CSS Tablet */
 
@@ -284,34 +294,38 @@ body {
     margin: 0;
     font-family: var(--font-family);
     background-color: var(--primary-color);
+    /* background-color: yellow;
+    border: 1px solid black; */
+  }
+  .container{
+    width: 100%;
+    min-width: 768px;
   }
   .top-center-content{
     width: 100%;
-    position: relative;
-    top: 5em;
     display: flex;
     flex-wrap: wrap;
   }
   .top-center-content .para-one {
-    width: 70%;
+    width: 60%;
     text-align: center;
-    font-size: 40px;
+    font-size: 25px;
     font-weight: 200;
     color: var(--Grayish-Blue);
   }
   .top-center-content strong {
     margin-bottom: 0.5em;
     text-align: center;
-    width: 90%;
-    font-size: 40px;
+    width: 60%;
+    font-size: 25px;
     color: var(--Very-Dark-Blue);
   }
   .top-center-content p {
-    width: 60%;
+    width: 55%;
     margin: 0;
     padding: 0;
     text-align: center;
-    font-size: 25px;
+    font-size: 15px;
     font-weight: 200;
     color: var(--Grayish-Blue);
   }
@@ -322,58 +336,56 @@ body {
     display: flex;
     justify-content: center;
     align-content: center;
+    /* background-color: aqua; */
   }
   .four-card-container {
-    width: 100%;
-    /* margin-top: 3em; */
+    width: 70%;
     display: flex;
     gap: 1em;
     justify-content: center;
     align-items: center;
-    position: relative;
-    top: 8em;
   }
   .center-card {
-    width: 30%;
+    width: 45%;
     display: flex;
     flex-wrap: wrap;
     gap: 2em;
   }
   .four-cards {
-    padding: 1em;
+    /* padding: 1em; */
     display: flex;
     align-items: flex-start;
   }
   .main-card-img {
     width: 100%;
-    padding-top: 2em;
+    padding-top: 1em;
     display: flex;
     justify-content: flex-end;
   }
   .card-img {
-    width: 20%;
+    width: 15%;
   }
   .four-cards h4 {
     margin: 0;
-    padding: 0;
-    font-size: 25px;
+    padding: 4px;
+    font-size: 15px;
     font-weight: 550;
     color: var(--Very-Dark-Blue);
   }
   .four-cards p {
-    margin-top: 0.5em;
-    padding: 0;
-    font-size: 20px;
+    margin: 0;
+    padding: 0.5em;
+    font-size: 8px;
     font-weight: 400;
     color: var(--Grayish-Blue);
   }
   .supervisor {
-    width: 25%;
+    width: 35%;
     display: flex;
     flex-direction: column;
     border-radius: 0.5em;
     background-color: var(--primary-color);
-    border-top: 0.5em solid var(--Cyan);
+    border-top: 2px solid var(--Cyan);
     box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
   .team-Building {
@@ -382,26 +394,26 @@ body {
     flex-direction: column;
     border-radius: 0.5em;
     background-color: var(--primary-color);
-    border-top: 0.5em solid var(--Red);
+    border-top: 2px solid var(--Red);
     box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
   .calculator {
-    /* width: 25%; */
+    width: 35%;
     display: flex;
     flex-direction: column;
     border-radius: 0.5em;
     background-color: var(--primary-color);
-    border-top: 0.5em solid var(--Blue);
+    border-top: 2px solid var(--Blue);
     box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
   .karma {
     /* width: 100%; */
     display: flex;
     flex-direction: column;
-    padding: 1.5em;
+    /* padding: 1.5em; */
     border-radius: 0.5em;
     background-color: var(--primary-color);
-    border-top: 0.5em solid var(--yellow);
+    border-top: 2px solid var(--yellow);
     box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
 }
